@@ -1,7 +1,11 @@
 # Two classes will be created. First class will have some attributes and methods and the 2nd class will inherit those attributes and methods apart from having their own.
 class Apple:
-    manufacture = 'Apple Inc.'
-    contactWebsite = 'www.apple.com/contact'
+    def __init__(self):
+        self.manufacture = 'Apple Inc.'
+        self.contactWebsite = 'www.apple.com/contact'
+    # or
+    # manufacture = 'Apple Inc.'
+    # contactWebsite = 'www.apple.com/contact'
     def contactDetails(self):
         print("To contact us, log on to", self.contactWebsite)
 
