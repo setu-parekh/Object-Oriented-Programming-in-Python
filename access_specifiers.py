@@ -17,9 +17,9 @@ car1 = Car()
 print("Public attribute numberOfWheels:", car1.numberOfWheels)
 print("Protected attribute color:", car1._color)
 
-print("Private attribute yearOfManufacture:", car1.__yearOfManufacture)
-# Above print line will error that attribute does not exist. Correct syntax is shown below:
-print("Private attribute yearOfManufacture:", car1._Car__yearOfManufacture)
+# print("Private attribute yearOfManufacture:", car1.__yearOfManufacture)
+# # Above print line will error that attribute does not exist. Correct syntax is shown below:
+# print("Private attribute yearOfManufacture:", car1._Car__yearOfManufacture)
 
-BMW1 = BMW()
-BMW1.displayDetails()
+# BMW1 = BMW()
+# BMW1.displayDetails()
